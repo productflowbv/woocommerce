@@ -27,6 +27,7 @@ class ProductFlow {
 	public function includes() {
 		require_once( plugin_dir_path( __FILE__ ) . 'class-productflow-admin.php' );
 		require_once( plugin_dir_path( __FILE__ ) . 'class-productflow-filters.php' );
+		require_once( plugin_dir_path( __FILE__ ) . 'class-productflow-attribute.php' );
 	}
 
 	/**
